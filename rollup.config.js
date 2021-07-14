@@ -22,50 +22,10 @@ const plugins = [
 
 export default [
     {
-        input: "assets/js/LayoutBuilder/index.js",
-        treeshake: false,
-        output: {
-            file: "public/build/layout-builder.js",
-            format: "umd",
-            sourcemap: true,
-        },
-        plugins: plugins
-    },
-    {
         input: "assets/js/CustomTable/index.js",
         treeshake: false,
         output: {
             file: "public/build/custom-table.js",
-            format: "umd",
-            sourcemap: true,
-        },
-        plugins: plugins
-    },
-    {
-        input: "assets/js/Prompt/index.js",
-        treeshake: false,
-        output: {
-            file: "public/build/prompt.js",
-            format: "umd",
-            sourcemap: true,
-        },
-        plugins: plugins
-    },
-    {
-        input: "assets/js/Markdown/index.js",
-        treeshake: false,
-        output: {
-            file: "public/build/markdown.js",
-            format: "umd",
-            sourcemap: true,
-        },
-        plugins: plugins
-    },
-    {
-        input: "assets/js/SiteDesign/index.js",
-        treeshake: false,
-        output: {
-            file: "public/build/site-design.js",
             format: "umd",
             sourcemap: true,
         },
